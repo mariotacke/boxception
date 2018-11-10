@@ -1,10 +1,9 @@
 # Boxception
 
-Write a program that outputs a nested box ASCII art (like russian dolls).
-Program should read an integer input, which is between 1 and 20.
+This module prints out nested box ASCII art to the console. It accepts two
+inputs, the **number of boxes** and **padding** between them.
 
-For example { input: 2 }
-
+Example: `node index.js 2`
 ```
 +---+
 |+-+|
@@ -13,8 +12,7 @@ For example { input: 2 }
 +---+
 ```
 
-Or { input: 3 }
-
+Example: `node index.js 3`
 ```
 +-----+
 |+---+|
@@ -25,9 +23,7 @@ Or { input: 3 }
 +-----+
 ```
 
-Later we want to introduce a padding of variable spaces, for example:
-{ input: 3, padding: 1 }
-
+Example: `node index.js 3 1`
 ```
 +---------+
 |         |
@@ -40,6 +36,20 @@ Later we want to introduce a padding of variable spaces, for example:
 | +-----+ |
 |         |
 +---------+
+```
+
+## Usage
+```
+node index.js <boxes> <padding>
+```
+
+- `<boxes>` defines the number of nested boxes to create
+- `<padding>` defines the number of spaces used for padding, default `0`
+
+## Tests
+```
+npm install
+npm test
 ```
 
 ## Tooling
