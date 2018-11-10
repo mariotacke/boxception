@@ -1,0 +1,25 @@
+{
+  "name": "boxception",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariotacke/boxception.git"
+  },
+  "keywords": [
+    "box"
+  ],
+  "author": "Mario Tacke <tacke.mario@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariotacke/boxception/issues"
+  },
+  "homepage": "https://github.com/mariotacke/boxception#readme",
+  "engines": {
+    "node": ">=8"
+  }
+}
