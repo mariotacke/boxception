@@ -1,4 +1,5 @@
 # Boxception
+[![Build Status](https://travis-ci.org/mariotacke/boxception.svg?branch=master)](https://travis-ci.org/mariotacke/boxception) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/boxception/master/LICENSE)
 
 This module prints out nested box ASCII art to the console. It accepts two
 inputs, the **number of boxes** and **padding** between them.
